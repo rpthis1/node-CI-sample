@@ -1,0 +1,20 @@
+{
+  "name": "node-CI-sample",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "url": "https://github.com/rpthis1/node-CI-sample.git",
+    "type": "git"
+  },
+  "scripts": {
+    "hello": "node app.js"
+  },
+  "author": "rpthis1 <mprado85@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "=4.15.2",
+    "mocha": "=3.2.0",
+    "should": "=11.2.1",
+    "supertest": "=3.0.0"
+  }
+}
